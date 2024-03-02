@@ -1,0 +1,36 @@
+*,:before,:after {margin: 0;padding: 0;box-sizing: border-box;} body {font-family: 'vardan', sans-serif;line-height: 1.7;color: #516171;}
+/* navbar css start */
+.form-txt span{color: #c5c6c9;}
+.top-navbar{border-bottom: 10px solid #f76d0b;}
+.btn-brand{background-color: #f76d0b;color: #fff;width:63%;}
+.text-center{margin-top: 80px;}
+.btn:hover{border: 2px solid #f76d0b;}
+.form-control::placeholder{color:#d7dae2f1;}
+.col-md-8{width: 100%;}
+.input-field{transition: all .4s ease-in-out; border:1px solid #acacac4a;border-radius: 4px; display: flex;justify-content: start;gap: 10px;padding: 0 17px;align-items: center;background-color: #f0f0f0;width: 100%;max-width: 500px;margin: auto;}
+.input-field i {text-align: center;line-height: 55px;color: #acacac;transition: 0.5s;font-size: 16px}
+.input-field input{background: none;outline: none;border: none;width: 100%;}
+.input-field input::placeholder {color: #aaa;font-weight: 500;}
+.input-field:hover{border: 2px solid #f76d0b;}
+/* navbar css end */
+
+/* logo css start */
+.logo-part{text-align: center;}
+/* logo css end */
+
+/* socials css start */
+.social-icons a{background: #aaa;color: #fff;display: flex;justify-content: center;align-items: center;width: 30px;height: 30px;border-radius: 50%;text-decoration: none;}
+.social-icons{display: flex;gap:15px;justify-content: center;padding-top: 40px;}
+.social-icons a i{font-size: 12px;}
+.social-icons a:nth-child(2){border-radius: inherit;}
+/* socials css end */
+
+/* footer css start */
+.footer-part{padding: 50px 0;text-align: center;}
+.footer-part span{font-size: 12px;}
+/* footer css end */
+
+/* login error css start */
+.login-error input::placeholder, .login-error i{color:#e23a3c;}
+.login-error{transition: all .4s ease-in-out;border-radius: 4px; display: flex;justify-content: start;gap: 10px;padding: 0 17px;align-items: center;background-color: #fde3e8;width: 100%;max-width: 500px;margin: auto;}
+/* login error css end */
